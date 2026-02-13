@@ -73,8 +73,9 @@ p{
   font-family: "Lato", sans-serif !important;
 }
 .side-heading{
-  font-family: "Rock", sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
+
 * {
   /* body font */
   --body-font: "Lato", sans-serif !important;
@@ -279,16 +280,6 @@ header.autoshow.scrollOn {
 header.autoshow.scrollOff {
 
   top: -120px;
-}
-
-.head-s{
-  font-size: 3.5rem !important;
-}
-
-@media (max-width: 600px) {
-  .head-s{
-  font-size: 2.5rem !important;
-}
 }
 
 header div#logo {
@@ -4467,7 +4458,7 @@ ol.ol-style-1 h4{
   left: 0;
   width: 100%;
   height: 100%;
-  background: #ffffff;
+  background: #0073CF;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -8506,7 +8497,7 @@ p.slider-teaser{
 
 .head-title{
   font-size: 4rem;
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .swiper-pagination{
@@ -9523,7 +9514,7 @@ section.no-padding {
 
 #loader-area {
   display: none;
-  background: #fff;
+  background: #0073CF !important;
 }
 
 #loader-area {
@@ -9538,6 +9529,7 @@ section.no-padding {
   width: 100%;
   height: 100%;
   z-index: 99999;
+  background-color: ;
 }
 
 .page-overlay {
@@ -13758,12 +13750,21 @@ border: 1px solid rgba(255,255,255,0.15);
             }
 
             body {
-                padding: 0px !important;
+                padding: 0 !important;
             }
 
             .load-more-btn {
                 padding: 12px 30px;
                 font-size: 1rem;
+            }
+
+            .side-con{
+              width: 2rem !important;
+              margin-left: 0.5rem !important;
+            }
+
+            #menu-btn{
+              margin-bottom: 0.5rem !important;
             }
         }
 
@@ -13797,7 +13798,7 @@ border: 1px solid rgba(255,255,255,0.15);
         #loader {
   position: fixed;
   inset: 0;
-  background: #ffffff;
+  background: #02297C !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13815,11 +13816,13 @@ border: 1px solid rgba(255,255,255,0.15);
 }
 
 .loader-text {
-  font-size: 13px;
+  font-family: "Rock", sans-serif !important;
+  font-size: 2rem;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: #111;
+  color: #fff;
   opacity: 0;
+  margin-top: 10px;
 }
 
 .color-red{
