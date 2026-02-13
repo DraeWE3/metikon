@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Energy Solutions | BIPV, Mini-Grids & Smart Infrastructure</title>
+    <link rel="icon" href="images/favi.png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="Title: Energy Intelligence & IIoT Monitoring | Metikon
+Description: Advanticsys & Spacewell energy analytics. Real-time monitoring, predictive maintenance, fault detection. Reduce costs, optimize performance with smart energy management." name="description" >
+    <meta content="" name="keywords" >
+    <meta content="" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-1.css" rel="stylesheet" type="text/css" >
+    <style>
+        /* Energy Intelligence Custom Styles */
+        .subheader-ei {
+            position: relative;
+            background-color: #0b0c15;
+            overflow: hidden;
+        }
+        .subheader-ei::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(135deg, rgba(30, 0, 80, 0.8) 0%, rgba(0, 50, 100, 0.8) 100%);
+            z-index: 1;
+        }
+        .dashboard-widget-card {
+            background: #fff;
+            border-radius: 6px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            border-top: 4px solid #2190d1;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        .dashboard-widget-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(33, 144, 209, 0.15);
+        }
+        .dashboard-widget-card h4 {
+            font-family: 'Space Mono', monospace; /* Assuming a tech font or fallback */
+            letter-spacing: -0.5px;
+            margin-bottom: 15px;
+        }
+        .dashboard-widget-card .icon-wrap {
+            color: #2190d1;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .tech-process-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .tech-process-number {
+            font-size: 40px;
+            font-weight: 800;
+            color: rgba(33, 144, 209, 0.1);
+            line-height: 1;
+            margin-right: 20px;
+            min-width: 60px;
+        }
+        .tech-process-content h4 {
+            color: #2190d1;
+            margin-bottom: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <a href="#" id="back-to-top"></a>
+
+        <!-- preloader begin -->
+        <div id="de-loader"></div>
+        <!-- preloader end -->
+
+        <!-- header begin -->
+        <header class="transparent">
+            <div id="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-between xs-hide">
+                                <div class="d-flex">
+                                    <div class="topbar-widget me-5"><a href="#"><i class="icofont-location-pin"></i>42 BG Bassey avenue, Uyo Nigeria </a></div>
+                                    <div class="topbar-widget me-5"><a href="#"><i class="icofont-phone"></i> +234 813 380 0002</a></div>
+                                    <div class="topbar-widget me-5"><a href="#"><i class="icofont-envelope"></i>info@metikoneng.com</a></div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="social-icons">
+                                        <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                                        <a href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                                        <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <!-- logo begin -->
+                                <div id="logo">
+                                    <a href="index.html">
+                                        <img class="logo-main" src="images/logo-white.webp" alt="" >
+                                        <img class="logo-mobile" src="images/logo-white.webp" alt="" >
+                                    </a>
+                                </div>
+                                <!-- logo end -->
+                            </div>
+                            <div class="de-flex-col header-col-mid">
+                                <!-- mainemenu begin -->
+                                <ul id="mainmenu">
+                                   <li><a class="menu-item" href="index.html">Home</a></li>
+                                    <li><a class="menu-item" href="services.html">Solutions</a>
+                                        <ul>
+                                            <li><a href="./bivp.html">BIVP</a></li>
+                                            <li><a href="mini-grid.html">Mini-Grids & Solar Home Systems</a></li>
+                                            <li><a href="ssl.html">Solar Street Lighting </a></li>
+                                            <li><a href="ei.html">Energy Intelligence </a></li>
+                                            <li><a href="Smart-Infrastructure.html">Smart Infrastructure </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="about.html">About Us</a>
+                                    </li>
+                                    <li><a class="menu-item" href="#">Pages</a>
+                                        <ul>
+                                            <li><a href="projects.html">Projects</a></li>
+                                            <li><a href="team.html">Our Team</a></li>
+                                            <li><a href="careers.html">Careers</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="blog.html">Insights</a></li>
+                                </ul>
+                                <!-- mainmenu end -->
+                            </div>
+                            <div class="de-flex-col">
+                                <div class="menu_side_area">
+                                    <a href="contact.html" class="btn-main btn-line fx-slide hover-white"><span>Contact Us</span></a>
+                                    <span id="menu-btn"></span>
+                                </div>
+
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+        <!-- content begin -->
+        <div class="no-bottom no-top" id="content">
+
+            <div id="top"></div>
+
+            <section id="subheader" class="subheader-ei text-light relative jarallax">
+                <img src="images/background/w2.webp" class="jarallax-img" alt="">
+                <div class="container relative z-2">
+                    <div class="row gy-4 gx-5 align-items-center">
+                        <div class="col-lg-12 text-start">
+                            <div class="spacer-double sm-hide"></div>
+                            <h5 class="wow  fadeInUp" style="color: #2190d1;">IIoT & SMART ANALYTICS</h5>
+                            <h1 class="mb-3 head-s wow fadeInUp fw-bold" data-wow-delay=".2s">Energy Intelligence</h1>
+                            <p class="lead wow fadeInUp font-monospace" data-wow-delay=".3s">&lt;Optimize::Monitor::Control /&gt;</p>
+                            <div class="spacer-single"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             
+
+<!-- ENERGY INTELLIGENCE PAGE -->
+
+<section>
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-5 order-lg-2">
+                <div class="relative wow fadeInRight">
+                    <!-- Tech frame for image -->
+                    <div style="border: 1px solid #ddd; padding: 10px; border-radius: 4px; background: #fafafa;">
+                        <img src="images/ei.jpeg" class="w-100" alt="Energy Dashboard" style="border: 1px solid #eee;">
+                    </div>
+                    <div class="abs top-0 start-0 p-3 bg-dark text-white rounded-bottom px-4 shadow-lg" style="margin-top: -10px; margin-left: 30px;">
+                        <span class="small font-monospace">STATUS: ACTIVE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 order-lg-1">
+                <div class="pe-lg-5">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="icofont-chart-line-alt fs-30 me-3" style="color: #6c63ff;"></i>
+                        <h5 class="mb-0 text-muted">Data-Driven Operations</h5>
+                    </div>
+                    <h2 class="wow fadeInUp display-5 fw-bold mb-4" data-wow-delay=".2s">The Power of <span style="color: #6c63ff;">Visibility</span></h2>
+                    
+                    <p class="lead wow fadeInUp" data-wow-delay=".3s">
+                        Transform how your organization monitors, analyzes, or optimizes power systems with our Industrial Internet of Things (IIoT) infrastructure.
+                    </p>
+                    
+                    <div class="row g-4 mt-2">
+                         <div class="col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="d-flex">
+                                <i class="icofont-connection fs-24 me-3 text-secondary"></i>
+                                <div>
+                                    <h5 class="mb-2">Advanticsys</h5>
+                                    <p class="small text-muted">Real-time energy monitoring hardware solutions.</p>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                            <div class="d-flex">
+                                <i class="icofont-dashboard-web fs-24 me-3 text-secondary"></i>
+                                <div>
+                                    <h5 class="mb-2">Spacewell</h5>
+                                    <p class="small text-muted">Comprehensive dashboard analytics & reporting.</p>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-light">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".0s">
+                <div class="dashboard-widget-card">
+                    <div class="icon-wrap"><i class="icofont-data"></i></div>
+                    <h4>Real-time Monitoring</h4>
+                    <p class="small text-muted mb-0">Live data streams from Advanticsys IIoT sensors for instant visibility.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                <div class="dashboard-widget-card">
+                    <div class="icon-wrap"><i class="icofont-chart-pie-alt"></i></div>
+                    <h4>Analytics Dashboard</h4>
+                    <p class="small text-muted mb-0">Spacewell powered insights for consumption trends and KPIs.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                <div class="dashboard-widget-card">
+                    <div class="icon-wrap"><i class="icofont-warning-alt"></i></div>
+                    <h4>Fault Detection</h4>
+                    <p class="small text-muted mb-0">Automated alerts and predictive maintenance to prevent downtime.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="dashboard-widget-card">
+                    <div class="icon-wrap"><i class="icofont-pulse"></i></div>
+                    <h4>Grid Health</h4>
+                    <p class="small text-muted mb-0">Advanced PQ monitoring with Heimdall sensor integration.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center mb-5">
+                <span class="d-inline-block py-1 px-3 rounded-pill bg-light text-dark small font-monospace">WORKFLOW</span>
+                <h2 class="mt-2">Digital Integration Path</h2>
+            </div>
+            
+            <div class="col-lg-6">
+               <div class="tech-process-item wow fadeInUp" data-wow-delay=".0s">
+                   <div class="tech-process-number">01</div>
+                   <div class="tech-process-content">
+                       <h4>Infrastructure Audit</h4>
+                       <p class="text-muted">Mapping existing energy assets and defining data collection points for sensor placement.</p>
+                   </div>
+               </div>
+               
+               <div class="tech-process-item wow fadeInUp" data-wow-delay=".1s">
+                   <div class="tech-process-number">02</div>
+                   <div class="tech-process-content">
+                       <h4>Sensor Deployment</h4>
+                       <p class="text-muted">Installation of smart meters and IIoT hardware to harvest operational data.</p>
+                   </div>
+               </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="tech-process-item wow fadeInUp" data-wow-delay=".2s">
+                   <div class="tech-process-number">03</div>
+                   <div class="tech-process-content">
+                       <h4>Platform Integration</h4>
+                       <p class="text-muted">Configuring cloud analytics and custom dashboards tailored to your KPIs.</p>
+                   </div>
+               </div>
+               
+               <div class="tech-process-item wow fadeInUp" data-wow-delay=".3s">
+                   <div class="tech-process-number">04</div>
+                   <div class="tech-process-content">
+                       <h4>Continuous Optimization</h4>
+                       <p class="text-muted">Ongoing AI-driven analysis for efficiency improvements and cost reduction.</p>
+                   </div>
+               </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+              <section class="bg-dark text-light pt-60 pb-40">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="relative">
+                                <div class="row g-4 grid-divider sm-hide">
+                                    <div class="col-lg-4 col-md-6 mb-sm-30">
+                                        <div class="d-flex justify-content-center">
+                                            <i class="fs-60 id-color icon_phone"></i>
+                                            <div class="ms-3">
+                                                <h4 class="mb-0">Need Our Services?</h4>
+                                                <p>Call: +234 813 380 0002</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 mb-sm-30">
+                                        <div class="d-flex justify-content-center">
+                                            <i class="fs-60 id-color icon_clock"></i>
+                                            <div class="ms-3">
+                                                <h4 class="mb-0">Work Hours</h4>
+                                                <p>Mon to Sat 08:00 - 17:00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-sm-30">
+                                        <div class="d-flex justify-content-center">
+                                            <i class="fs-60 id-color icon_mail"></i>
+                                            <div class="ms-3">
+                                                <h4 class="mb-0">Email Us</h4>
+                                                <p>info@metikoneng.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>           
+
+        </div>
+        <!-- content end -->
+
+        <!-- footer begin -->
+         <footer class="section-dark">
+          <div class="container relative z-2">
+            <div class="row gx-5">
+              <div class="col-lg-4 col-sm-6">
+                <img src="images/logo-white.webp" class="logo-footer" alt="">
+                <div class="spacer-20"></div>
+                <p>Metikon Engineering Limited delivers world-class energy infrastructure across Africa. From BIPV innovation to rural electrification, we design, deploy, and maintain sustainable power solutions that transform communities and enable progress.</p>
+
+                <div class="social-icons mb-sm-30">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+
+              <div class="col-lg-5 col-sm-12 order-lg-1 order-sm-2">
+                <div class="row">
+                  <div class="col-lg-7 col-sm-6">
+                    <div class="widget">
+                      <h5>Our Solutions</h5>
+                      <ul>
+   <li><a href="./bivp.html">BIVP</a></li>
+                                            <li><a href="mini-grid.html">Mini-Grids & Solar Home Systems</a></li>
+                                            <li><a href="ssl.html">Solar Street Lighting </a></li>
+                                            <li><a href="ei.html">Energy Intelligence </a></li>
+                                            <li><a href="Smart-Infrastructure.html">Smart Infrastructure </a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-5 col-sm-6">
+                    <div class="widget">
+                      <h5>Company</h5>
+                      <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Insights</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-sm-6 order-lg-2 order-sm-1">
+                <div class="widget">
+                  <h5>Contact Us</h5>
+
+                  <div class="fw-bold text-white d-flex align-items-center">
+                    <i class="icofont-location-pin me-2 id-color"></i><span>Head Office</span>
+                  </div>
+                  42 BG Bassey avenue, Ewet Housing Estate, Uyo Nigeria 
+
+                  <div class="spacer-20"></div>
+
+                  <div class="fw-bold text-white d-flex align-items-center">
+                    <i class="icofont-phone me-2 id-color"></i><span>Call Us</span>
+                  </div>
+                 +234 813 380 0002<br/>+234 701 094 2127
+
+                  <div class="spacer-20"></div>
+
+                  <div class="fw-bold text-white d-flex align-items-center">
+                    <i class="icofont-envelope me-2 id-color"></i><span>Email Us</span>
+                  </div>
+                  info@metikoneng.com
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="subfooter">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="de-flex">
+                    <div class="de-flex-col">
+                      &copy; 2026 - E38 agency
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="abs w-50 end-0 bottom-0 op-3">
+              <img src="images/misc/c1.webp" class="w-100 rtl-hide wow fadeInRight" data-wow-duration="2s" alt="">
+              <img src="images/misc/c1-flip.webp" class="w-100 rtl-show wow fadeInLeft" data-wow-duration="2s" alt="">
+          </div>
+        </footer>
+
+        <!-- footer end -->
+    </div>
+
+    <!-- overlay content begin -->
+    <div id="extra-wrap" class="text-light">
+        <div id="btn-close">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="extra-content">
+            <img src="images/logo-white.webp" class="w-150px" alt="">
+
+            <div class="spacer-30-line"></div>
+
+            <h5>Our Services</h5>
+            <ul class="ul-check">
+                <li>Solar Panel Installation</li>
+                <li>Solar Panel Maintenance</li>
+                <li>Custom System Design</li>
+                <li>Solar Battery Storage</li>
+                <li>System Monitoring & Reporting</li>
+                <li>Solar Panel Upgrades</li>
+            </ul>
+
+            <div class="spacer-30-line"></div>
+
+            <h5>Contact Us</h5>
+            <div><i class="icofont-clock-time me-2 op-5"></i>Monday - Friday 08.00 - 18.00</div>
+            <div><i class="icofont-location-pin me-2 op-5"></i>100 Solar Ave, San Diego, CA </div>
+            <div><i class="icofont-envelope me-2 op-5"></i>support@solaria.com</div>
+
+            <div class="spacer-30-line"></div>
+
+            <h5>About Us</h5>
+            <p>At Solaria, we’re committed to delivering reliable, efficient, and sustainable solar energy solutions. From residential installations to commercial systems, we help you harness the power of the sun and reduce your energy bills while protecting the planet.</p>
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/custom-swiper-1.js"></script>
+    <script src="js/custom-marquee.js"></script>
+
+</body>
+
+</html>

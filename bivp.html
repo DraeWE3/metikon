@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Energy Solutions | BIPV, Mini-Grids & Smart Infrastructure</title>
+    <link rel="icon" href="images/favi.png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="Title: BIPV Engineering & Wattpod Solar Carports | Metikon
+Description: Nigeria's first BIPV project partner. Wattpod solar carports transform parking into power generation. Architectural solar integration for corporate campuses & fuel stations." name="description" >
+    <meta content="" name="keywords" >
+    <meta content="" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-1.css" rel="stylesheet" type="text/css" >
+    <style>
+        /* BIVP Custom Styles */
+        .subheader-bivp {
+            position: relative;
+            background-color: #111;
+            overflow: hidden;
+        }
+        .subheader-bivp::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(135deg, rgba(0,0,0,0.85) 0%, rgba(20,20,20,0.4) 100%);
+            z-index: 1;
+        }
+        .feature-card {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            height: 100%;
+            border: 1px solid rgba(0,0,0,0.05);
+            position: relative;
+            overflow: hidden;
+        }
+        .feature-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            width: 4px;
+            background: var(--primary-color, #2190d1); 
+            transition: width 0.3s ease;
+            z-index: 0;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+        .feature-card:hover::after {
+            width: 100%;
+            opacity: 0.05;
+        }
+        .feature-card h4 {
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .feature-card i {
+            font-size: 32px;
+            margin-bottom: 20px;
+            display: inline-block;
+            color: var(--primary-color, #2190d1);
+        }
+        .process-step-bivp {
+            position: relative;
+            padding: 20px;
+        }
+        .process-step-bivp .step-num {
+            font-size: 60px;
+            font-weight: 900;
+            color: #f0f0f0;
+            position: absolute;
+            top: 0;
+            left: 10px;
+            line-height: 1;
+            z-index: 0;
+        }
+        .process-step-bivp .step-content {
+            position: relative;
+            z-index: 1;
+            padding-top: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <a href="#" id="back-to-top"></a>
+
+        <!-- preloader begin -->
+        <div id="de-loader"></div>
+        <!-- preloader end -->
+
+        <!-- header begin -->
+        <header class="transparent">
+            <div id="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-between xs-hide">
+                                <div class="d-flex">
+                                    <div class="topbar-widget me-5"><a href="#"><i class="icofont-location-pin"></i>42 BG Bassey avenue, Uyo Nigeria </a></div>
+                                    <div class="topbar-widget me-5"><a href="#"><i class="icofont-phone"></i> +234 813 380 0002</a></div>
+                                    <div class="topbar-widget me-5"><a href="#"><i class="icofont-envelope"></i>info@metikoneng.com</a></div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="social-icons">
+                                        <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                                        <a href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                                        <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <!-- logo begin -->
+                                <div id="logo">
+                                    <a href="index.html">
+                                        <img class="logo-main" src="images/logo-white.webp" alt="" >
+                                        <img class="logo-mobile" src="images/logo-white.webp" alt="" >
+                                    </a>
+                                </div>
+                                <!-- logo end -->
+                            </div>
+                            <div class="de-flex-col header-col-mid">
+                                <!-- mainemenu begin -->
+                                <ul id="mainmenu">
+                                   <li><a class="menu-item" href="index.html">Home</a></li>
+                                    <li><a class="menu-item" href="services.html">Solutions</a>
+                                        <ul>
+                                            <li><a href="./bivp.html">BIVP</a></li>
+                                            <li><a href="mini-grid.html">Mini-Grids & Solar Home Systems</a></li>
+                                            <li><a href="ssl.html">Solar Street Lighting </a></li>
+                                            <li><a href="ei.html">Energy Intelligence </a></li>
+                                            <li><a href="Smart-Infrastructure.html">Smart Infrastructure </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="about.html">About Us</a>
+                                    </li>
+                                    <li><a class="menu-item" href="#">Pages</a>
+                                        <ul>
+                                            <li><a href="projects.html">Projects</a></li>
+                                            <li><a href="team.html">Our Team</a></li>
+                                            <li><a href="careers.html">Careers</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="blog.html">Insights</a></li>
+                                </ul>
+                                <!-- mainmenu end -->
+                            </div>
+                            <div class="de-flex-col">
+                                <div class="menu_side_area">
+                                    <a href="contact.html" class="btn-main btn-line fx-slide hover-white"><span>Contact Us</span></a>
+                                    <span id="menu-btn"></span>
+                                </div>
+
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+        <!-- content begin -->
+        <div class="no-bottom no-top" id="content">
+
+            <div id="top"></div>
+
+            <section id="subheader" class="subheader-bivp text-light relative jarallax">
+                <img src="images/background/w2.webp" class="jarallax-img" alt="">
+                <div class="container relative z-2">
+                    <div class="row gy-4 gx-5 align-items-center">
+                        <div class="col-lg-12 text-start">
+                            <div class="spacer-double sm-hide"></div>
+                            <h5 class="wow fadeInUp" style="letter-spacing: 3px; opacity: 0.8;">ARCHITECTURAL SOLAR INTEGRATION</h5>
+                            <h1 class="mb-3 head-s wow fadeInUp" data-wow-delay=".2s">Building Integrated <br>Photovoltaics (BIPV)</h1>
+                            <p class="lead wow fadeInUp" data-wow-delay=".3s">Seamlessly blending solar energy generation with modern architectural design.</p>
+                            <div class="spacer-single"></div>
+                            <a href="#first-section" class="btn-main wow fadeInUp" data-wow-delay=".4s">Explore Solutions</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             
+         <!-- BIPV ENGINEERING & WATTPOD INFRASTRUCTURE PAGE -->
+
+<section id="first-section">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            
+            <div class="col-lg-7">
+                <div class="ps-lg-3">
+                    <div class="d-flex align-items-center mb-3 wow fadeInUp">
+                        <div class="bg-primary text-white px-3 py-1 rounded-pill small fst-italic me-3">Leading Innovation</div>
+                        <div class="subtitle id-color mb-0">Pioneering BIPV in Nigeria</div>
+                    </div>
+                    
+                    <h2 class="wow fadeInUp display-5 fw-bold mb-4" data-wow-delay=".2s">Building-Integrated Photovoltaic <span class="id-color">Engineering</span></h2>
+                    
+                    <p class="lead wow fadeInUp" data-wow-delay=".3s">
+                        Metikon Engineering is the local partner in Nigeria's first Building Integrated Photovoltaic (BIPV) project. Unlike conventional solar panels, BIPV systems integrate seamlessly into building structures.
+                    </p>
+                    
+                    <div class="row mt-4">
+                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <ul class="ul-check list-unstyled">
+                                <li class="mb-2"><i class="id-color icofont-check-circled me-2"></i>Roof Integrated Systems</li>
+                                <li class="mb-2"><i class="id-color icofont-check-circled me-2"></i>Solar Façades</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                            <ul class="ul-check list-unstyled">
+                                <li class="mb-2"><i class="id-color icofont-check-circled me-2"></i>Carports & Canopies</li>
+                                <li class="mb-2"><i class="id-color icofont-check-circled me-2"></i>Solar Glass</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="spacer-single"></div>
+                    <a href="contact.html" class="btn-main btn-line wow fadeInUp" data-wow-delay=".6s">Start Your Project</a>
+                </div>
+            </div>
+            
+            <div class="col-lg-5">
+                <div class="relative">
+                    <div class="w-100 wow scaleIn" data-wow-delay=".2s">
+                        <img src="images/9.jpg" class="w-100 rounded-3 shadow-lg" alt="BIPV Installation" style="border: 10px solid #fff;">
+                    </div>
+                    <div class="abs start-0 bottom-0 w-60 translate-middle-y z-2 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="bg-white p-4 rounded-3 shadow-lg border-start border-5 border-warning">
+                            <h5 class="mb-1">Wattpod™</h5>
+                            <p class="small mb-0 text-muted">Flagship infrastructure transforming parking into power.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-6 text-center">
+                <span class="subtitle id-color">Why Choose BIPV?</span>
+                <h2 class="mb-0">Engineering Excellence</h2>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".0s">
+                <div class="feature-card">
+                    <i class="icofont-building-alt"></i>
+                    <h4>Architectural Integration</h4>
+                    <p class="small text-muted mb-0">Seamlessly blending solar technology with structural integrity for modern aesthetics.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                <div class="feature-card">
+                    <i class="icofont-handshake-deal"></i>
+                    <h4>Global Partnerships</h4>
+                    <p class="small text-muted mb-0">Strategic alliance with Solar Innova & top-tier OEMs for world-class quality.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                <div class="feature-card">
+                    <i class="icofont-car-alt-1"></i>
+                    <h4>Wattpod Solutions</h4>
+                    <p class="small text-muted mb-0">Innovative carports & fuel station covers turning passive space into active power assets.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="feature-card">
+                    <i class="icofont-ruler-pencil-alt-1"></i>
+                    <h4>Design-to-Commission</h4>
+                    <p class="small text-muted mb-0">End-to-end engineering excellence from initial concept to final grid connection.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="subtitle">How It Works</div>
+                <h2>BIPV Implementation Process</h2>
+            </div>
+        </div>
+        
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".0s">
+            <div class="process-step-bivp">
+                <div class="step-num">01</div>
+                <div class="step-content">
+                    <h5 class="fw-bold text-uppercase mb-3">Architectural Assessment</h5>
+                    <p class="small text-muted">Analyzing building design, loads, and exposure for optimal integration.</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".1s">
+            <div class="process-step-bivp">
+                <div class="step-num">02</div>
+                <div class="step-content">
+                    <h5 class="fw-bold text-uppercase mb-3">Custom Engineering</h5>
+                    <p class="small text-muted">Detailed technical specs combining aesthetics with PV performance.</p>
+                </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+            <div class="process-step-bivp">
+                <div class="step-num">03</div>
+                <div class="step-content">
+                    <h5 class="fw-bold text-uppercase mb-3">Precision Installation</h5>
+                    <p class="small text-muted">Certified deployment ensuring visual appeal and efficient generation.</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+            <div class="process-step-bivp">
+                <div class="step-num">04</div>
+                <div class="step-content">
+                    <h5 class="fw-bold text-uppercase mb-3">System Commissioning</h5>
+                    <p class="small text-muted">Testing and monitoring for optimal long-term ROI and operation.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+</section>
+
+
+               <section class="bg-dark text-light pt-60 pb-40">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="relative">
+                                <div class="row g-4 grid-divider sm-hide">
+                                    <div class="col-lg-4 col-md-6 mb-sm-30">
+                                        <div class="d-flex justify-content-center">
+                                            <i class="fs-60 id-color icon_phone"></i>
+                                            <div class="ms-3">
+                                                <h4 class="mb-0">Need Our Services?</h4>
+                                                <p>Call: +234 813 380 0002</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 mb-sm-30">
+                                        <div class="d-flex justify-content-center">
+                                            <i class="fs-60 id-color icon_clock"></i>
+                                            <div class="ms-3">
+                                                <h4 class="mb-0">Work Hours</h4>
+                                                <p>Mon to Sat 08:00 - 17:00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-sm-30">
+                                        <div class="d-flex justify-content-center">
+                                            <i class="fs-60 id-color icon_mail"></i>
+                                            <div class="ms-3">
+                                                <h4 class="mb-0">Email Us</h4>
+                                                <p>info@metikoneng.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>           
+
+        </div>
+        <!-- content end -->
+
+        <!-- footer begin -->
+         <footer class="section-dark">
+          <div class="container relative z-2">
+            <div class="row gx-5">
+              <div class="col-lg-4 col-sm-6">
+                <img src="images/logo-white.webp" class="logo-footer" alt="">
+                <div class="spacer-20"></div>
+                <p>Metikon Engineering Limited delivers world-class energy infrastructure across Africa. From BIPV innovation to rural electrification, we design, deploy, and maintain sustainable power solutions that transform communities and enable progress.</p>
+
+                <div class="social-icons mb-sm-30">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+
+              <div class="col-lg-5 col-sm-12 order-lg-1 order-sm-2">
+                <div class="row">
+                  <div class="col-lg-7 col-sm-6">
+                    <div class="widget">
+                      <h5>Our Solutions</h5>
+                      <ul>
+   <li><a href="./bivp.html">BIVP</a></li>
+                                            <li><a href="mini-grid.html">Mini-Grids & Solar Home Systems</a></li>
+                                            <li><a href="ssl.html">Solar Street Lighting </a></li>
+                                            <li><a href="ei.html">Energy Intelligence </a></li>
+                                            <li><a href="Smart-Infrastructure.html">Smart Infrastructure </a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-5 col-sm-6">
+                    <div class="widget">
+                      <h5>Company</h5>
+                      <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Insights</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-sm-6 order-lg-2 order-sm-1">
+                <div class="widget">
+                  <h5>Contact Us</h5>
+
+                  <div class="fw-bold text-white d-flex align-items-center">
+                    <i class="icofont-location-pin me-2 id-color"></i><span>Head Office</span>
+                  </div>
+                  42 BG Bassey avenue, Ewet Housing Estate, Uyo Nigeria 
+
+                  <div class="spacer-20"></div>
+
+                  <div class="fw-bold text-white d-flex align-items-center">
+                    <i class="icofont-phone me-2 id-color"></i><span>Call Us</span>
+                  </div>
+                 +234 813 380 0002<br/>+234 701 094 2127
+
+                  <div class="spacer-20"></div>
+
+                  <div class="fw-bold text-white d-flex align-items-center">
+                    <i class="icofont-envelope me-2 id-color"></i><span>Email Us</span>
+                  </div>
+                  info@metikoneng.com
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="subfooter">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="de-flex">
+                    <div class="de-flex-col">
+                      &copy; 2026 - E38 agency
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="abs w-50 end-0 bottom-0 op-3">
+              <img src="images/misc/c1.webp" class="w-100 rtl-hide wow fadeInRight" data-wow-duration="2s" alt="">
+              <img src="images/misc/c1-flip.webp" class="w-100 rtl-show wow fadeInLeft" data-wow-duration="2s" alt="">
+          </div>
+        </footer>
+
+        <!-- footer end -->
+    </div>
+
+    <!-- overlay content begin -->
+    <div id="extra-wrap" class="text-light">
+        <div id="btn-close">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="extra-content">
+            <img src="images/logo-white.webp" class="w-150px" alt="">
+
+            <div class="spacer-30-line"></div>
+
+            <h5>Our Services</h5>
+            <ul class="ul-check">
+                <li>Solar Panel Installation</li>
+                <li>Solar Panel Maintenance</li>
+                <li>Custom System Design</li>
+                <li>Solar Battery Storage</li>
+                <li>System Monitoring & Reporting</li>
+                <li>Solar Panel Upgrades</li>
+            </ul>
+
+            <div class="spacer-30-line"></div>
+
+            <h5>Contact Us</h5>
+            <div><i class="icofont-clock-time me-2 op-5"></i>Monday - Friday 08.00 - 18.00</div>
+            <div><i class="icofont-location-pin me-2 op-5"></i>100 Solar Ave, San Diego, CA </div>
+            <div><i class="icofont-envelope me-2 op-5"></i>support@solaria.com</div>
+
+            <div class="spacer-30-line"></div>
+
+            <h5>About Us</h5>
+            <p>At Solaria, we’re committed to delivering reliable, efficient, and sustainable solar energy solutions. From residential installations to commercial systems, we help you harness the power of the sun and reduce your energy bills while protecting the planet.</p>
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/custom-swiper-1.js"></script>
+    <script src="js/custom-marquee.js"></script>
+
+</body>
+
+</html>

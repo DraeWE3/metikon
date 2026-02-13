@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Energy Solutions | BIPV, Mini-Grids & Smart Infrastructure</title>
+    <link rel="icon" href="images/favi.png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="Title: Solar Mini-Grids & Rural Electrification | Metikon
+Description: REA-approved mini-grid developer. 117kWp Nsofang project powers 250+ households. Build-own-operate solar solutions bringing 24/7 electricity to rural Nigeria." name="description" >
+    <meta content="" name="keywords" >
+    <meta content="" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-1.css" rel="stylesheet" type="text/css" >
+    <style>
+        /* Mini-Grid Custom Styles */
+        .subheader-mini {
+            position: relative;
+            background-color: #0b1c15; /* Darker green-black */
+            overflow: hidden;
+        }
+        .subheader-mini::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(circle at center, rgba(33,144,209,0.3) 0%, rgba(0,0,0,0.9) 70%);
+            z-index: 1;
+        }
+        .impact-stat-card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            border-bottom: 5px solid #2190d1;
+            transition: transform 0.3s ease;
+        }
+        .impact-stat-card:hover {
+            transform: translateY(-10px);
+        }
+        .impact-stat-card .icon-box {
+            width: 80px;
+            height: 80px;
+            background: rgba(33,144,209,0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            color: #2190d1;
+            font-size: 32px;
+        }
+        .timeline-process {
+            position: relative;
+            padding: 40px 0;
+        }
+        .timeline-process::before {
+            content: '';
+            position: absolute;
+            top: 0; bottom: 0; left: 20px;
+            width: 2px;
+            background: #ddd;
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 60px;
+            margin-bottom: 40px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 11px;
+            top: 5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #2190d1;
+            border: 4px solid #fff;
+            box-shadow: 0 0 0 3px rgba(33,144,209,0.2);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <a href="#" id="back-to-top"></a>
+
+        <!-- preloader begin -->
+        <div id="de-loader"></div>
+        <!-- preloader end -->
+
+        <!-- header begin -->
+        <header class="transparent">
+            <div id="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-between xs-hide">
+                                <div class="d-flex">
+                                    <div class="topbar-widget me-5"><a href="#"><i class="icofont-location-pin"></i>42 BG Bassey avenue, Uyo Nigeria </a></div>
+                                    <div class="topbar-widget me-5"><a href="#"><i class="icofont-phone"></i> +234 813 380 0002</a></div>
+                                    <div class="topbar-widget me-5"><a href="#"><i class="icofont-envelope"></i>info@metikoneng.com</a></div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="social-icons">
+                                        <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                                        <a href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                                        <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <!-- logo begin -->
+                                <div id="logo">
+                                    <a href="index.html">
+                                        <img class="logo-main" src="images/logo-white.webp" alt="" >
+                                        <img class="logo-mobile" src="images/logo-white.webp" alt="" >
+                                    </a>
+                                </div>
+                                <!-- logo end -->
+                            </div>
+                            <div class="de-flex-col header-col-mid">
+                                <!-- mainemenu begin -->
+                                <ul id="mainmenu">
+                                   <li><a class="menu-item" href="index.html">Home</a></li>
+                                    <li><a class="menu-item" href="services.html">Solutions</a>
+                                        <ul>
+                                            <li><a href="./bivp.html">BIVP</a></li>
+                                            <li><a href="mini-grid.html">Mini-Grids & Solar Home Systems</a></li>
+                                            <li><a href="ssl.html">Solar Street Lighting </a></li>
+                                            <li><a href="ei.html">Energy Intelligence </a></li>
+                                            <li><a href="Smart-Infrastructure.html">Smart Infrastructure </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="about.html">About Us</a>
+                                    </li>
+                                    <li><a class="menu-item" href="#">Pages</a>
+                                        <ul>
+                                            <li><a href="projects.html">Projects</a></li>
+                                            <li><a href="team.html">Our Team</a></li>
+                                            <li><a href="careers.html">Careers</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="blog.html">Insights</a></li>
+                                </ul>
+                                <!-- mainmenu end -->
+                            </div>
+                            <div class="de-flex-col">
+                                <div class="menu_side_area">
+                                    <a href="contact.html" class="btn-main btn-line fx-slide hover-white"><span>Contact Us</span></a>
+                                    <span id="menu-btn"></span>
+                                </div>
+
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+        <!-- content begin -->
+        <div class="no-bottom no-top" id="content">
+
+            <div id="top"></div>
+
+            <section id="subheader" class="subheader-mini text-light relative jarallax">
+                <img src="images/background/w2.webp" class="jarallax-img" alt="">
+                <div class="container relative z-2">
+                    <div class="row gy-4 gx-5 align-items-center">
+                        <div class="col-lg-12 text-start">
+                            <div class="spacer-double sm-hide"></div>
+                            <div class="d-inline-block bg-white text-dark px-3 py-1 rounded-1 mb-3 fw-bold small wow fadeInUp">RURAL ELECTRIFICATION</div>
+                            <h1 class="mb-3 head-s wow fadeInUp" data-wow-delay=".2s">Mini-Grids & <br>Solar Home Systems</h1>
+                            <p class="lead wow fadeInUp w-lg-50" data-wow-delay=".3s">Delivering reliable, clean energy to underserved communities across Nigeria.</p>
+                            <div class="spacer-single"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             
+  <!-- MINI-GRIDS & SOLAR HOME SYSTEMS PAGE -->
+
+<section>
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="ps-lg-3">
+                    <h5 class="id-color wow fadeInUp custom-font">Powering Progress</h5>
+                    <h2 class="wow fadeInUp display-6 fw-bold mb-4" data-wow-delay=".2s">Rural Electrification & <span class="text-gradient">Distributed Energy</span></h2>
+                    
+                    <div class="p-4 bg-light rounded-3 border-start border-5 border-success mb-4 wow fadeInUp" data-wow-delay=".3s">
+                        <p class="mb-0 fst-italic text-dark">
+                            "Bringing authorized, reliable power to the 85 million Nigerians without electricity access."
+                        </p>
+                    </div>
+
+                    <p class="wow fadeInUp" data-wow-delay=".4s">
+                        Metikon Engineering specializes in deploying solar PV-based mini-grids and solar home systems. As recipients of the Rural Electrification Agency's off-grid Solar PV Grant and shortlisted by the World Bank-assisted Nigeria Electrification Project (NEP), we develop build-own-operate (BOO) solutions.
+                    </p>
+                    
+                    <div class="spacer-single"></div>
+                    
+                    <div class="d-flex gap-3 wow fadeInUp" data-wow-delay=".5s">
+                        <img src="images/misc/rea-logo.png" alt="REA" style="height: 40px; opacity: 0.7;" onerror="this.style.display='none'">
+                        <!-- Add actual partner logos if available, otherwise just text blocks -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 order-lg-1">
+                <div class="relative">
+                    <div class="row g-2">
+                        <div class="col-6 wow fadeInUp" data-wow-delay=".1s">
+                            <img src="images/grid.jpeg" class="w-100 rounded-2 shadow-sm" alt="Solar Arrays" style="height: 300px; object-fit: cover;">
+                        </div>
+                        <div class="col-6 mt-5 wow fadeInUp" data-wow-delay=".3s">
+                            <img src="images/grid1.jpeg" class="w-100 rounded-2 shadow-sm" alt="Community Lighting" style="height: 300px; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="abs top-50 start-50 translate-middle bg-success text-white p-3 rounded-circle shadow-lg d-flex align-items-center justify-content-center" style="width: 100px; height: 100px; z-index: 3;">
+                        <div class="text-center lh-1">
+                            <span class="d-block fw-bold fs-4">24/7</span>
+                            <span class="small">Power</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-light relative">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-8 text-center">
+                <h2>Our Impact Approach</h2>
+                <p class="lead text-muted">Sustainable models for long-term community development.</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".0s">
+                <div class="impact-stat-card">
+                    <div class="icon-box">
+                        <i class="icofont-badge"></i>
+                    </div>
+                    <h5>REA Approved</h5>
+                    <p class="small text-muted mb-0">Certified developer compliant with all federal regulations.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                <div class="impact-stat-card">
+                    <div class="icon-box">
+                        <i class="icofont-chart-growth"></i>
+                    </div>
+                    <h5>BOO Model</h5>
+                    <p class="small text-muted mb-0">Build-Own-Operate model ensuring sustainable maintenance.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                <div class="impact-stat-card">
+                    <div class="icon-box">
+                        <i class="icofont-battery"></i>
+                    </div>
+                    <h5>Hybrid Storage</h5>
+                    <p class="small text-muted mb-0">Advanced battery systems for uninterrupted night-time power.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="impact-stat-card">
+                    <div class="icon-box">
+                        <i class="icofont-people"></i>
+                    </div>
+                    <h5>Social Inclusion</h5>
+                    <p class="small text-muted mb-0">Community engagement driving economic growth & jobs.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="subtitle">Process</div>
+                    <h2>Development Cycle</h2>
+                    <p>Our rigorous approach ensures every mini-grid is technically sound and socially embraced.</p>
+                    <a href="contact.html" class="btn-main mt-3">Partner With Us</a>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="timeline-process">
+                        
+                        <div class="timeline-item wow fadeInUp" data-wow-delay=".1s">
+                            <h4 class="fw-bold fs-5">Community Assessment</h4>
+                            <p class="mb-0 text-muted">GIS mapping, load demand surveys, and stakeholder engagement to size the opportunity.</p>
+                        </div>
+
+                        <div class="timeline-item wow fadeInUp" data-wow-delay=".2s">
+                            <h4 class="fw-bold fs-5">Feasibility & Design</h4>
+                            <p class="mb-0 text-muted">Technical modeling using HOMER/RETScreen to optimize generation mix and tariff structures.</p>
+                        </div>
+
+                        <div class="timeline-item wow fadeInUp" data-wow-delay=".3s">
+                            <h4 class="fw-bold fs-5">Infrastructure Deployment</h4>
+                            <p class="mb-0 text-muted">Construction of generation plant, distribution network grid, and metering points.</p>
+                        </div>
+
+                        <div class="timeline-item wow fadeInUp" data-wow-delay=".4s">
+                            <h4 class="fw-bold fs-5">Operations & Maintenance</h4>
+                            <p class="mb-0 text-muted">Smart metering, vending system management, and local technical support.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+              <section class="bg-dark text-light pt-60 pb-40">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="relative">
+                                <div class="row g-4 grid-divider sm-hide">
+                                    <div class="col-lg-4 col-md-6 mb-sm-30">
+                                        <div class="d-flex justify-content-center">
+                                            <i class="fs-60 id-color icon_phone"></i>
+                                            <div class="ms-3">
+                                                <h4 class="mb-0">Need Our Services?</h4>
+                                                <p>Call: +234 813 380 0002</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 mb-sm-30">
+                                        <div class="d-flex justify-content-center">
+                                            <i class="fs-60 id-color icon_clock"></i>
+                                            <div class="ms-3">
+                                                <h4 class="mb-0">Work Hours</h4>
+                                                <p>Mon to Sat 08:00 - 17:00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-sm-30">
+                                        <div class="d-flex justify-content-center">
+                                            <i class="fs-60 id-color icon_mail"></i>
+                                            <div class="ms-3">
+                                                <h4 class="mb-0">Email Us</h4>
+                                                <p>info@metikoneng.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>           
+
+        </div>
+        <!-- content end -->
+
+        <!-- footer begin -->
+         <footer class="section-dark">
+          <div class="container relative z-2">
+            <div class="row gx-5">
+              <div class="col-lg-4 col-sm-6">
+                <img src="images/logo-white.webp" class="logo-footer" alt="">
+                <div class="spacer-20"></div>
+                <p>Metikon Engineering Limited delivers world-class energy infrastructure across Africa. From BIPV innovation to rural electrification, we design, deploy, and maintain sustainable power solutions that transform communities and enable progress.</p>
+
+                <div class="social-icons mb-sm-30">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+
+              <div class="col-lg-5 col-sm-12 order-lg-1 order-sm-2">
+                <div class="row">
+                  <div class="col-lg-7 col-sm-6">
+                    <div class="widget">
+                      <h5>Our Solutions</h5>
+                      <ul>
+   <li><a href="./bivp.html">BIVP</a></li>
+                                            <li><a href="mini-grid.html">Mini-Grids & Solar Home Systems</a></li>
+                                            <li><a href="ssl.html">Solar Street Lighting </a></li>
+                                            <li><a href="ei.html">Energy Intelligence </a></li>
+                                            <li><a href="Smart-Infrastructure.html">Smart Infrastructure </a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-5 col-sm-6">
+                    <div class="widget">
+                      <h5>Company</h5>
+                      <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Insights</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-sm-6 order-lg-2 order-sm-1">
+                <div class="widget">
+                  <h5>Contact Us</h5>
+
+                  <div class="fw-bold text-white d-flex align-items-center">
+                    <i class="icofont-location-pin me-2 id-color"></i><span>Head Office</span>
+                  </div>
+                  42 BG Bassey avenue, Ewet Housing Estate, Uyo Nigeria 
+
+                  <div class="spacer-20"></div>
+
+                  <div class="fw-bold text-white d-flex align-items-center">
+                    <i class="icofont-phone me-2 id-color"></i><span>Call Us</span>
+                  </div>
+                 +234 813 380 0002<br/>+234 701 094 2127
+
+                  <div class="spacer-20"></div>
+
+                  <div class="fw-bold text-white d-flex align-items-center">
+                    <i class="icofont-envelope me-2 id-color"></i><span>Email Us</span>
+                  </div>
+                  info@metikoneng.com
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="subfooter">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="de-flex">
+                    <div class="de-flex-col">
+                      &copy; 2026 - E38 agency
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="abs w-50 end-0 bottom-0 op-3">
+              <img src="images/misc/c1.webp" class="w-100 rtl-hide wow fadeInRight" data-wow-duration="2s" alt="">
+              <img src="images/misc/c1-flip.webp" class="w-100 rtl-show wow fadeInLeft" data-wow-duration="2s" alt="">
+          </div>
+        </footer>
+
+        <!-- footer end -->
+    </div>
+
+    <!-- overlay content begin -->
+    <div id="extra-wrap" class="text-light">
+        <div id="btn-close">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="extra-content">
+            <img src="images/logo-white.webp" class="w-150px" alt="">
+
+            <div class="spacer-30-line"></div>
+
+            <h5>Our Services</h5>
+            <ul class="ul-check">
+                <li>Solar Panel Installation</li>
+                <li>Solar Panel Maintenance</li>
+                <li>Custom System Design</li>
+                <li>Solar Battery Storage</li>
+                <li>System Monitoring & Reporting</li>
+                <li>Solar Panel Upgrades</li>
+            </ul>
+
+            <div class="spacer-30-line"></div>
+
+            <h5>Contact Us</h5>
+            <div><i class="icofont-clock-time me-2 op-5"></i>Monday - Friday 08.00 - 18.00</div>
+            <div><i class="icofont-location-pin me-2 op-5"></i>100 Solar Ave, San Diego, CA </div>
+            <div><i class="icofont-envelope me-2 op-5"></i>support@solaria.com</div>
+
+            <div class="spacer-30-line"></div>
+
+            <h5>About Us</h5>
+            <p>At Solaria, we’re committed to delivering reliable, efficient, and sustainable solar energy solutions. From residential installations to commercial systems, we help you harness the power of the sun and reduce your energy bills while protecting the planet.</p>
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/custom-swiper-1.js"></script>
+    <script src="js/custom-marquee.js"></script>
+
+</body>
+
+</html>
