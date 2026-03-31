@@ -13348,8 +13348,17 @@ img {
   }
 
     .globe-left, .globe-right{
-    width: 100%
+    width: 100%;
+    gap: 0;
+    padding: 0;
+    padding-top: 1.5rem !important;
+    
   }
+
+  .btti{
+    margin-top: 1.5rem !important;
+  }
+  
 
   .loader-text{
     font-size: 1rem !important;
