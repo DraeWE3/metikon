@@ -15532,7 +15532,11 @@ img {
   text-transform: uppercase;
 
 }
+.subtitle2 {
+  color: #fff !important;
+  text-transform: uppercase;
 
+}
 
 
 .gallery-header {
