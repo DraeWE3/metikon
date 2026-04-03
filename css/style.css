@@ -15902,11 +15902,19 @@ img {
   }
 
   .midtxt{
-   font-size: 1.5rem !important;
+   font-size: 2rem !important;
   }
 
   .ptxt{
-font-size: 1rem !important;
-   line-height: 18px !important;
+font-size: 1.2rem !important;
+   line-height: 19px !important;
   }
+}
+
+.btnred{
+  background-color: var(--red) !important;
+}
+
+.btnred:hover{
+  background-color: var(--bg-dark-2) !important;
 }
