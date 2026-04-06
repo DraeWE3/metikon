@@ -15532,6 +15532,7 @@ img {
   text-transform: uppercase;
 
 }
+
 .subtitle2 {
   color: #fff !important;
   text-transform: uppercase;
@@ -15896,29 +15897,27 @@ img {
 }
 
 @media (max-width: 700px) {
-  #content > section:last-of-type {
-    display: none !important;
+
+
+  .intertxt {
+    font-size: 0.7rem !important;
+    line-height: 16px !important;
   }
 
-  .intertxt{
-   font-size: 0.7rem !important;
-   line-height: 16px !important;
+  .midtxt {
+    font-size: 2rem !important;
   }
 
-  .midtxt{
-   font-size: 2rem !important;
-  }
-
-  .ptxt{
-font-size: 1.2rem !important;
-   line-height: 19px !important;
+  .ptxt {
+    font-size: 1.2rem !important;
+    line-height: 19px !important;
   }
 }
 
-.btnred{
+.btnred {
   background-color: var(--red) !important;
 }
 
-.btnred:hover{
+.btnred:hover {
   background-color: var(--bg-dark-2) !important;
 }
